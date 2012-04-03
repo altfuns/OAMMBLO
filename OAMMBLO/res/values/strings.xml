@@ -6,5 +6,9 @@
     <string name="login_hint_username">USERNAME</string>
     <string name="login_hint_password">PASSWORD</string>
     <string name="login_login">LOGIN</string>
+    <string name="dashboard_tweets">TWEETS</string>
+    <string name="dashboard_lists">LISTS</string>
+    <string name="dashboard_mentions">MENTIONS</string>
+    <string name="dashboard_retweets">RETWEETS</string>
 
 </resources>
