@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@android:color/white">
+    
+    <TextView android:textSize="18sp"
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:text="@string/login_title"
+        android:layout_centerInParent="true" android:gravity="center"/>
+    <EditText android:id="@+id/edtUserName"
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+        android:hint="@string/login_hint_username"
+        android:layout_centerInParent="true" android:gravity="center"/>
+    <EditText android:id="@+id/edtPassword"
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+        android:hint="@string/login_hint_password"
+        android:layout_centerInParent="true" android:gravity="center"/>
+    <Button android:id="@+id/btnLogin"
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+        android:text="@string/login_login"
+        android:layout_centerInParent="true" android:gravity="center"/>
+</LinearLayout>
