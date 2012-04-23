@@ -1,11 +1,11 @@
 package com.fr4gus.android.oammblo.ui;
 
-import android.app.Activity;
 import android.os.Bundle;
+import android.view.View;
 
 import com.fr4gus.android.oammblo.R;
 
-public class DashboardActivity extends Activity{
+public class DashboardActivity extends OammbloActivity{
 
 	@Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -13,4 +13,8 @@ public class DashboardActivity extends Activity{
         setContentView(R.layout.dashboard);
         
     }
+	
+	public void tweetsOnClick(View view){
+		startActivityByClass(TimelineActivity.class);
+	}
 }
